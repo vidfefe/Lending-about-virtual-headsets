@@ -1,0 +1,41 @@
+
+.container {
+    max-width: 1550px;
+    margin: 150px 0 0 auto;
+   
+}
+
+.header {
+    max-width: 1408px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 65px; 
+
+
+  h5{
+    max-width: 340px;
+    color: rgba(255, 255, 255, 0.6);
+    span{
+       opacity: 100% !important;
+        color: #3DDEED;
+    }
+}
+    
+
+}
+
+
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+
+
+
+
+

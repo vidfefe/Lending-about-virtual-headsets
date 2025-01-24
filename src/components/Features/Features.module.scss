@@ -1,0 +1,41 @@
+.container{
+    max-width: 1408px;
+    margin: 150px auto 0 auto;
+    display: flex;
+    align-items:flex-start;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+.glassesImg{
+    img{
+        width: 700px !important;
+        height: 520px !important;
+    }
+
+    position:relative;
+}
+
+.glassesImg::after{
+    content: '';
+    position: absolute;
+    width:450px;
+    height:400px;
+    background-color: rgba(203, 0, 221, 0.3);
+    filter: blur(200px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
+
+.featureList{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    gap:20px;
+    height: 50px;
+}

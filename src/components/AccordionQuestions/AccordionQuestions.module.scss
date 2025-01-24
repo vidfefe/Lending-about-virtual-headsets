@@ -1,0 +1,67 @@
+
+
+
+  .item {
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-bottom: 25px;
+  }
+  
+  .itemBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    width: 100%;
+    margin: 0;
+    padding: 30px 40px;
+    text-align: left;
+    font-family: "Acme", sans-serif;
+    font-size: 25px;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .itemBtn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .itemBtnExpanded {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
+    border-bottom-left-radius: 0; 
+    border-bottom-right-radius: 0; 
+  }
+  
+  .itemContent {
+    transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+  
+  }
+  
+  .itemPanel {
+    padding: 20px 40px 32px 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+    border-radius: 8px; 
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0; 
+  }
+  
+
+  .itemBtnExpanded .arrow {
+    transform: rotate(180deg);
+
+
+    & path{
+        
+        fill: rgba(189, 0, 255, 1);
+    }
+  }
+
+  .arrow{
+    transition: transform 0.3s ease;
+
+    & path{
+        transition: fill 0.3s ease;
+    }
+  }

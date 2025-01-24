@@ -1,0 +1,40 @@
+.header{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    max-width: 1408px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.navBar{
+    display: flex;
+    gap:32px;
+
+    
+    
+}
+
+
+  
+.rightBar{
+    display: flex;
+    gap:32px;
+}
+
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    img{
+        position: absolute;
+        right:24px ;
+      
+    }
+}
+

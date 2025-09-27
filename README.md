@@ -7,7 +7,7 @@ A responsive one-page landing about virtual reality headsets: hero section, feat
 - **React**
 - **react-slick** + **slick-carousel** (slider)
 - **react-accordion** (FAQ)
-- **Sass** for styling
+- **SCSS Modules** for styling
 
 ## 🚀 Getting Started
 
